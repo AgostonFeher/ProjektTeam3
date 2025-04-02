@@ -1,0 +1,120 @@
+/*Cream (#FFFDF2), black (#000000) Color Palette*/
+body
+{
+    background-color:#fffade;
+    min-width: 640px;
+    min-height: 480px;
+    overflow: hidden;
+}
+/*FOOTER*/
+footer
+{ 
+    border-top: solid black 2px;
+    height: auto;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.footer_element
+{
+    outline: solid black 2px;
+    float: left;
+    text-align: center;
+    width: 25%;
+    background-color: #f7eba9;
+}
+.footer_element:nth-child(odd)
+{
+    background-color: #c9c190;
+}
+.footer_span
+{
+    text-align: center;
+    display: block;
+    width: 100%;
+    border-top: solid black 1px;
+    height: auto;
+}
+.footer_span:nth-child(1)
+{
+    background-color: #585858;
+}
+#footer_button
+{ 
+    margin:0,45%;
+    width: 10%;
+    background-color: rgb(156, 156, 156);
+    color: white;
+}
+
+/*HEADER*/
+header
+{
+    border-bottom: black dashed 2px;
+    height: 140px;
+}
+.header_element
+{
+    outline: solid black 2px;
+    float: left;
+    text-align: center;
+    background-color: #f7eba9;
+    box-sizing: border-box;
+    height: 128px;
+    vertical-align: middle;
+}
+.header_element p
+{
+    margin: 0;
+    height: 34px;
+    margin-top: 47px;
+    font-size: 30px;
+}
+.header_span
+{
+    text-align: center;
+    display: block;
+    width: 100%;
+    border-top: solid black 2px;
+    height: 100%;
+}
+#Logo
+{
+    width: 128px;
+    height: 128px;
+    background-size: cover;
+    background-image: url(images/Logo.jpg);
+}
+#Header_Data
+{
+    width: calc(60% - 128px);
+}
+#Request
+{
+    width: 20%;
+}
+#LogIn
+{
+    width: 20%;
+}
+
+/*Content Section*/
+.Main_div
+{
+    float: left;
+}
+.Main_span
+{
+    width: 100%;
+    display: block;
+}
+#Main_div
+{
+    height: calc(100% - 215px);
+}
+.Main_span:nth-child(2)
+{
+    margin-top: 10px;
+    border-top: dashed black 2px;
+}

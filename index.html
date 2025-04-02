@@ -3,11 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="tools/style.css">
+    <script src="tools/script.js"></script>
     <title>ProjektTeam3</title>
 </head>
-<body>
-    <header></header>
-    <footer></footer>
+<body onload="FooterToggle()">
+    <header>
+        <span class="header_span">
+            <a><div class="header_element" id="Logo"></div></a>
+            <div class="header_element" id="Header_Data"><a><p>Information...</p></a></div>
+            <div class="header_element" id="Request"><a><p>Reference Links...</p></a></div>
+            <div class="header_element" id="LogIn"><a><p>Links...</p></a></div>
+        </span>
+    </header>
+
+
+    <div id="Main">
+        <span class="Main_span">
+            <div id="Main_div">test1</div>
+        </span>
+        <span class="Main_span">
+            <div id="Main_div">test2</div>
+        </span>
+    </div>
+
+
+    <footer>
+        <span class="footer_span">
+            <button id="footer_button" onclick="FooterToggle()">Close</button>
+        </span>
+        <span class="footer_span" id="CollapsableFooter">
+            <div class="footer_element"><a><p>Job Description...</p></a></div>
+            <div class="footer_element"><a><p>Information...</p></a></div>
+            <div class="footer_element"><a><p>Reference Links...</p></a></div>
+            <div class="footer_element"><a><p>Links...</p></a></div>
+        </span>
+    </footer>
 </body>
 </html>
