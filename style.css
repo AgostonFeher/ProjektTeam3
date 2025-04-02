@@ -1,4 +1,15 @@
+/*Cream (#FFFDF2), black (#000000) Color Palette*/
 body
 {
-    background-color: aqua;
+    background-color:#FFFDF2;
+}
+header
+{
+    border: solid black 2px;
+    height: auto;
+}
+footer
+{
+    border: solid black 2px;
+    height: auto;
 }
